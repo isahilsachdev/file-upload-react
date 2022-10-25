@@ -20,7 +20,7 @@ const Accordian = ({ containerId, toggleContainer, isOpen, files, heading, empty
               </p>
             )}
             { files.map(file => (
-              <FileUploads file={file} containerId={containerId} handleCancelFileUpload={handleCancelFileUpload} />
+              <FileUploads key={file.id} file={file} containerId={containerId} handleCancelFileUpload={handleCancelFileUpload} />
             ))}
           </div>
         )

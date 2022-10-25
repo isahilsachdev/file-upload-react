@@ -9,9 +9,9 @@ const textMapping = {
   "4": "Failed", 
 }
 
-const FileUploads = ({file, containerId, handleCancelFileUpload}) => {
+const FileUploads = ({key, file, containerId, handleCancelFileUpload}) => {
   return (
-    <div key={file.id} className="file-upload-container">
+    <div key={key} className="file-upload-container">
       <div>
         <p>
           {file.name}
