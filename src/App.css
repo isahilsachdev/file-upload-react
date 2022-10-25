@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.files-container {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.files-container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-sign {
+  color: skyblue;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 12px;
+}
