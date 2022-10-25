@@ -14,7 +14,6 @@
 .accordian-toggle-icon {
   transform: rotate(360deg);
   cursor: pointer;
-  padding-right: 10px;
 }
 
 .file-upload-container {

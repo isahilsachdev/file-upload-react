@@ -60,3 +60,7 @@
 p {
   font-size: 12px;
 }
+
+hr {
+  border-width: 0.1px !important;
+}
