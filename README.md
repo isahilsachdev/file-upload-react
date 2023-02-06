@@ -1,5 +1,10 @@
 ## live url 
-https://fake-file-uploader.netlify.app/
+https://ecom-nodejs.netlify.app/
+
+## Product description
+This project is a demonstration of a simple ecommerce website using reactjs. It consists of 2 page, Home and Cart. User can add items from home page to cart and then can checkout.
+
+We also provide 10 % discounts on every 3rd item.
 
 # Getting Started with Create React App
 
@@ -17,27 +22,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## Libraries Used and Why
-
-I have not used any external library to build ui or for the functionality.
-All logic and styles are handwritten and all icons are downloaded.
-
 ## Screenshots
 
-![Landing Page](https://user-images.githubusercontent.com/73214085/197862224-11272499-0207-4e3c-a314-7dcda62659fe.png)
+![Home Page with user details](https://user-images.githubusercontent.com/73214085/216952977-542accf4-907a-4434-ab0f-8ec2653b76d7.png)
 
-![Empty State](https://user-images.githubusercontent.com/73214085/197862240-6556abef-1d62-4787-8788-5df398197233.png)
+![Home Page](https://user-images.githubusercontent.com/73214085/216953200-820f1bff-6efd-4245-8639-7ecd587b9ebb.png)
 
-![File Uploads](https://user-images.githubusercontent.com/73214085/197862282-3af2ff2b-6be7-4b06-bdfb-1c1c3392e16b.png)
+![Cart Page](https://user-images.githubusercontent.com/73214085/216953360-cb07f98d-cee3-414c-bb8d-0b7123eaa50d.png)
 
-![Success and failure](https://user-images.githubusercontent.com/73214085/197862305-5f7ed3fb-32b4-4c9b-8fae-5eb4d5ec2f30.png)
+![Cart Page Coupons](https://user-images.githubusercontent.com/73214085/216953517-4b32a97b-3b3e-473f-a02b-f3fcc4153733.png)
 
 
-## What you would do if you had more time
+## What you would do if i had to make this project better and with additional functionality
 
 * I'd make better UI for better user experience.
-* Would have covered Edge cases.
+* Would have added loading and a loader.
 * Better management of tools or Implementation of state management tools if needed.
+* Would have added a checkout experience using test payments with some tools like Stripe.
 
 
 
